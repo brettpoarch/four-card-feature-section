@@ -10,47 +10,59 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  <div>
-    <h2>Reliable, efficient delivery</h2>
+  
+  <div class="container title-container">
+    <h2 class="title-light">Reliable, efficient delivery</h2>
     <h2>Powered by Technology</h2>
-
-    <p>Our Artificial Intelligence powered tools use millions of project data points</p>
-    <p>to ensure that your project is successful</p>
-
+    <p class="title-description">Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</p>
+  </div>
+  
+  <div class="container all-cards">
+    <div class="supervisor-container card">
+      <h3>Supervisor</h3>
+      <p>Monitors activity to identify project roadblocks</p>
+      <div class="icon-container">
+        <img src="images/icon-supervisor.svg" alt="">
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h3>Supervisor</h3>
-    <p>Monitors activity to identify project roadblocks<p>
-    <img src="images/icon-supervisor.svg" alt="">
-  </div>
 
-  <div>
-    <div>
+  <div class="container all-cards">
+    <div class="team-builder-container card">
       <h3>Team Builder</h3>
       <p>Scans our talent network to create the optimal team for your project</p>
-      <img src="images/icon-team-builder.svg" alt="">
+      <div class="icon-container">
+        <img src="images/icon-team-builder.svg" alt="">
+      </div>
     </div>
-    <div>
+  </div>
+  
+  <div class="container all-cards">
+    <div class="karma-container card">
       <h3>Karma</h3>
       <p>Regularly evaluates our talent to ensure quality</p>
-      <img src="images/icon-karma.svg" alt="">
+      <div class="icon-container">
+        <img src="images/icon-karma.svg" alt="">
+      </div>
     </div>
   </div>
 
-  <div>
-    <h3>Calculator</h3>
-    <p>Uses data from past projects to provide better delivery estimates</p>
-    <img src="images/icon-calculator.svg" alt="">
+
+  <div class="container all-cards">
+    <div class="calculator-container card">
+      <h3>Calculator</h3>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+      <div class="icon-container">
+        <img src="images/icon-calculator.svg" alt="">
+      </div>
+    </div>
   </div>
+
+
   
 </body>
 
